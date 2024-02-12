@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--dark);
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+  
+.footer__container {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    border-top: 1px solid var(--purple);
+}

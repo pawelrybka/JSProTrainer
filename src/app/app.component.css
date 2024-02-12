@@ -1,8 +1,5 @@
-:root {
-  --purple: #662aed;
-  --dark: #0e1213;
-  --grey: #1a2224;
-  --white: #e3e7e6;
-  --green: #378937;
-  --body-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
