@@ -1,0 +1,10 @@
+.new-element-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(90%, 600px, 90vw);
+    max-height: 80vh;
+    border-radius: 20px;
+    border: 1px solid var(--purple);
+}
