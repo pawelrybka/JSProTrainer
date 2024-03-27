@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
+import { DialogService } from '../../services/new-element-dialog.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,5 +10,9 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  dialogToggle() {
+    this.dialogService.dialogToggle()
+  }
 
+  constructor(private dialogService: DialogService) { }
 }
