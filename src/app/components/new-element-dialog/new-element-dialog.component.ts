@@ -13,6 +13,10 @@ export class NewElementDialogComponent implements OnInit  {
 
   constructor(private dialogService: DialogService) { }
 
+  dialogToggle() {
+    this.dialogService.dialogToggle()
+  }
+
   ngOnInit() {
     this.dialogService.showDialog$.subscribe(showDialog => {
       this.showDialog = showDialog;
